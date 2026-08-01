@@ -1,8 +1,27 @@
 aid: salesape
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salesape.png
 name: Salesape
-description: 'Salesape is a company surfaced as a portfolio company of northzone and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise; ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  SalesAPE.ai (operated by AI AGENT GROUP LTD, a UK-registered company) builds AI sales
+  assistants that automatically engage and qualify inbound leads across email, SMS, web chat,
+  and WhatsApp. Its AI agents respond to prospects 24/7, qualify them, and book sales
+  appointments so human teams focus on closing. SalesAPE connects to CRMs and automation tools
+  including HubSpot, Salesforce, Zoho, and Zapier (100+ integrations), logging and summarizing
+  conversations back into the CRM. It was surfaced as a portfolio company of Northzone and added
+  to the API Evangelist network. As of this enrichment pass SalesAPE publishes no public
+  developer portal, API reference, or OpenAPI; it exposes a customer app, a hosted status page,
+  and standard legal pages. Sector: enterprise; AI.
 url: https://raw.githubusercontent.com/api-evangelist/salesape/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Enterprise; Ai
+- Enterprise
+- Artificial Intelligence
+- Sales
+- Lead Qualification
+- AI Agents
+- CRM
+- Conversational AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.salesape.ai
+- type: Login
+  url: https://app.salesape.ai/login
+- type: Support
+  url: https://hub.salesape.ai/support
+- type: StatusPage
+  url: https://status.salesape.ai/
+- type: TermsOfService
+  url: https://www.salesape.ai/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.salesape.ai/privacy-policy
+- type: Lifecycle
+  url: lifecycle/salesape-lifecycle.yml
+- type: DomainSecurity
+  url: security/salesape-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

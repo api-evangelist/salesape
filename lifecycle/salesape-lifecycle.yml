@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.salesape.ai/
+status_page: https://status.salesape.ai/
+status_page_provider: Better Stack
+status_components:
+  - name: SalesApe Core (API + Webchat)
+    uptime: "99.910%"
+  - name: SalesApe Portal
+    uptime: "99.948%"
+  - name: SalesApe Core Workflows
+    uptime: "100%"
+  - name: Link Tracking (go-to-link.io)
+    uptime: "100%"
+versioning:
+  scheme: unknown
+  note: No public versioning or deprecation policy is published; SalesAPE ships no public developer/API documentation.
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+  uptime_target: null
+  note: Status page displays achieved uptime (99.9%+) but no contractual SLA target is published.
+deprecated_operations: []
